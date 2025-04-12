@@ -4,4 +4,5 @@
 주요 개념, 실습 코드 및 테스트 관련 내용을 다룹니다.
 ~~~
 
-[🔗ZeroCho: next-app-router-z](https://github.com/ZeroCho/next-app-router-z)
+[🔗 ZeroCho: next-app-router-z](https://github.com/ZeroCho/next-app-router-z)  
+[🔗 Next 공식문서](https://nextjs.org/docs)
