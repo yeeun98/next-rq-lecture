@@ -6,7 +6,11 @@
 
 * 📍 [App Router](#-app-router)
 
+<br/>
+
 ---
+
+<br/>
 
 ## App Router
 ~~~
@@ -15,7 +19,11 @@ Next.js 13부터 도입된 **App Router**에 대한 정리입니다.
 ~~~
 📄 **문서 보기** → [app router 상세 정리](./docs/about-app-router.md)
 
+<br/>
+
 ---
+
+<br/>
 
 ## 📌 참고 링크
 
