@@ -1,7 +1,4 @@
 # Next.js + React Query로 SNS 서비스 만들기
-
-<br/>
-
 ## 📚 목차
 
 * 📍 [App Router](#-app-router)
