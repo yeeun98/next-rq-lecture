@@ -6,3 +6,8 @@
 
 [🔗 ZeroCho: next-app-router-z](https://github.com/ZeroCho/next-app-router-z)  
 [🔗 Next 공식문서](https://nextjs.org/docs)
+
+---
+
+## App Router
+[📍 app router 상세 정리](./docs/about-app-router.md)
