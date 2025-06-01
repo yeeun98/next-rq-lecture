@@ -28,4 +28,4 @@ Next.js 13부터 도입된 **App Router**에 대한 정리입니다.
 ## 📌 참고 링크
 
 * [📘 ZeroCho - next-app-router-z](https://github.com/ZeroCho/next-app-router-z)
-* [📘 Next.js 공시문서](https://nextjs.org/docs)
+* [📘 Next.js 공식문서](https://nextjs.org/docs)
