@@ -1,4 +1,4 @@
-export default function NotFound() {
+export default function ZeroCho() {
     return (
       <div></div>
     );

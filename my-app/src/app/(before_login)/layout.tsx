@@ -1,12 +1,13 @@
 
-export default function Layout({
+export default function BeforeLoginLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <div>
-      {children}
+      로그인 전 레이아웃
+        {children}
     </div>
   );
 }
