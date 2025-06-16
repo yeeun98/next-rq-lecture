@@ -1,25 +1,6 @@
-# Next.js + React Query로 SNS 서비스 만들기
+# 🚀 Next.js + React Query 기반 SNS 프로젝트
 
-## Install Next
-
-```bash
-npx create-next-app@latest
-```
-
-✔ What is your project named? … `my-app`
-✔ Would you like to use TypeScript? … No / Yes >> `Yes`
-✔ Would you like to use ESLint? … No / Yes >> `Yes`
-✔ Would you like to use Tailwind CSS? … No / Yes >> `No`
-✔ Would you like your code inside a `src/` directory? … No / Yes >> `Yes`
-✔ Would you like to use App Router? (recommended) … No / Yes >> `Yes`
-✔ Would you like to use Turbopack for `next dev`? … No / Yes >> `Yes`
-✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes >> `No`
-
-## Run Project
-
-```bash
-npm run dev # node version : 18.18.0 || ^19.8.0 || >= 20.0.0
-```
+> 인프런 강의 [Next + React Query로 SNS 서비스 만들기](https://www.inflearn.com/course/next-react-query-sns%EC%84%9C%EB%B9%84%EC%8A%A4/dashboard) 관련 레포입니다.
 
 <br/>
 
@@ -27,22 +8,48 @@ npm run dev # node version : 18.18.0 || ^19.8.0 || >= 20.0.0
 
 ## 📚 목차
 
+- [기술 스택](#-기술-스택)
+- [실행 방법](#-실행-방법)
 - 📍 [App Router](#-app-router)
 
-<br/>
+---
+
+## 기술 스택
+
+| 기술              | 설명                              |
+| ----------------- | --------------------------------- |
+| Next.js           | 13+ App Router 기반               |
+| React Query       | 클라이언트 상태 및 서버 상태 관리 |
+| TypeScript        | 정적 타입 지원                    |
+| CSS Modules       | 모듈화된 컴포넌트 스타일링        |
+| ESLint + Prettier | 코드 정적 분석 및 포맷팅          |
+| Vercel            | 배포 플랫폼 (예정 또는 선택)      |
+
+#### CSS Module의 사용 이유?
+
+- tailwind: 호불호가 갈리고 가독성에 좋지 않다고 판단
+- Styled Component: Server Component SSR과 문제가 있음
+- vanilla extract: turbo pack과 문제 있음
+
+---
+
+## 실행 방법
+
+```bash
+npm install
+npm run dev # Node.js 18.18.0, ^19.8.0, 또는 20.0.0 이상에서 동작
+```
 
 ---
 
 ## App Router
 
 ```
-Next.js 13부터 도입된 **App Router**에 대한 정리입니다.
-폴더 기반의 라우팅, 레이아웃 시스템, 동적 세그먼트 등 해석 가능한 태깅을 포함합니다.
+Next.js 13부터 도입된 App Router에 대한 정리이다.
+폴더 기반의 라우팅, 레이아웃 시스템, 동적 세그먼트 등 해석 가능한 태깅을 포함한다.
 ```
 
 📄 **문서 보기** → [app router 상세 정리](./docs/about-app-router.md)
-
-<br/>
 
 ---
 
