@@ -44,7 +44,8 @@ npm run dev # Node.js 18.18.0, ^19.8.0, 또는 20.0.0 이상에서 동작
 
 ## 강의 정리
 
-📄 **문서 보기** → [app router 상세 정리](./docs/about-app-router.md)
+📄 **App Router 문서 보기** → [app router 상세 정리](./docs/about-app-router.md)  
+📄 **Parallel Routes 문서 보기** → [parallel routes 상세 정리](./docs/about-parallel-routes.md)
 
 ---
 
