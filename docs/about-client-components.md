@@ -2,7 +2,7 @@
 
 ## 방법
 
-Next.js 13 이상에서는 기본적으로 **Server Components**를 사용한다.
+Next.js 13 이상에서는 기본적으로 **Server Components**를 사용한다.  
 컴포넌트를 클라이언트 컴포넌트로 전환하려면, 파일 상단에 다음 코드를 추가해야한다.
 
 ```tsx
