@@ -52,3 +52,7 @@ export default function Layout({ children, modal }: Props) {
 
 - `/i/flow/login`
 → `@i` 슬롯에 `flow/login/page.tsx` 렌더링, `@modal/page.tsx`가 함께 렌더링되어 병렬 UI 구성
+
+---
+
+[🔗 Parallel Routes 공식 문서](https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes)
