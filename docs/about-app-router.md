@@ -37,6 +37,8 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 }
 ```
 
+---
+
 ## 3. `layout.tsx`의 역할
 
 * 해당 폴더와 하위 경로에 공통적으로 적용되는 레이아웃을 정의함
