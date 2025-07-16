@@ -23,7 +23,6 @@
 | TypeScript        | 정적 타입 지원                    |
 | CSS Modules       | 모듈화된 컴포넌트 스타일링        |
 | ESLint + Prettier | 코드 정적 분석 및 포맷팅          |
-| Vercel            | 배포 플랫폼 (예정 또는 선택)      |
 
 #### CSS Module의 사용 이유?
 
