@@ -1,6 +1,6 @@
 export default function Explore() {
     return (
-      <div></div>
+      <div>검색페이지</div>
     );
   }
   
