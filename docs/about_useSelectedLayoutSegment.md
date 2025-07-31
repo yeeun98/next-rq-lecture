@@ -114,3 +114,8 @@ export default function NavMenu() {
 | `useSelectedLayoutSegment()` | 현재 URL 경로에서 활성화된 segment를 반환함. 예: `/home`이면 `'home'` |
 | `const isActive = 'home' === segment` | 현재 segment가 `'home'`인지 비교해서 활성화 여부를 판단함 |
 | `style={{ fontWeight: isActive ? 'bold' : 'normal' }}` | `isActive`가 `true`일 경우 해당 링크를 굵게 표시함 |
+
+
+---
+
+[useSelectedLayoutSegment 공식문서](https://nextjs-ko.org/docs/app/api-reference/functions/use-selected-layout-segment)
