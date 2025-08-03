@@ -1,6 +1,5 @@
+import Home from "../../home/page";
+
 export default function Tweet() {
-    return (
-      <div></div>
-    );
-  }
-  
+  return <Home />;
+}
