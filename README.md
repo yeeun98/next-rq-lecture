@@ -39,14 +39,26 @@ npm run dev # Node.js 18.18.0, ^19.8.0, 또는 20.0.0 이상에서 동작
 
 ---
 
-## 강의 정리
+## 📚 강의 정리
 
-📄 **App Router 문서 보기** → [app router 상세 정리](./docs/about-app-router.md)  
-📄 **Parallel Routes 문서 보기** → [parallel routes 상세 정리](./docs/about-parallel-routes.md)  
-📄 **클라이언트 컴포넌트로 전환하는 방법과 그 이유 관련 문서 보기** → [클라이언트 컴포넌트로 전환하는 것 관련 정리](./docs/about-client-components.md)  
-📄 **Intercepting Routes 문서 보기** → [intercepting routes 상세 정리](./docs/about-intercepting-routes.md)  
-📄 **Next.js 주소창에 영향을 주지 않는 폴더 정리** → [non routing 상세 정리](./docs/about_non_routing_folders.md)  
-📄 **useSelectedLayoutSegment 정리(activeLink 만들기)** → [useSelectedLayoutSegment 상세 정리](./docs/about_useSelectedLayoutSegment.md)  
+**📦 라우팅 관련**
+
+| 항목                     | 내용                                    | 링크                                                          |
+| ------------------------ | --------------------------------------- | ------------------------------------------------------------- |
+| App Router               | App Router 구조와 동작 방식 정리        | [상세 보기](./docs/lecture/about-app-router.md)               |
+| Parallel Routes          | 병렬 라우팅 개념과 사용 예시            | [상세 보기](./docs/lecture/about-parallel-routes.md)          |
+| 클라이언트 컴포넌트 전환 | 전환 방법 및 이유 정리                  | [상세 보기](./docs/lecture/about-client-components.md)        |
+| Intercepting Routes      | 주소를 유지한 채 라우트를 가로채는 방법 | [상세 보기](./docs/lecture/about-intercepting-routes.md)      |
+| Non-Routing 폴더         | URL에 영향을 주지 않는 폴더 구조        | [상세 보기](./docs/lecture/about_non_routing_folders.md)      |
+| useSelectedLayoutSegment | activeLink 구현을 위한 훅 사용법        | [상세 보기](./docs/lecture/about_useSelectedLayoutSegment.md) |
+
+<br/>
+
+**🧠 상태 관리**
+
+| 항목        | 내용                     | 링크                                             |
+| ----------- | ------------------------ | ------------------------------------------------ |
+| Context API | Provider, 전역 상태 구성 | [상세 보기](./docs/lecture/about-context-api.md) |
 
 ---
 
