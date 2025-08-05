@@ -1,30 +1,17 @@
-import style from "./profile.module.css";
-import Post from "@/app/(afterLogin)/_component/Post";
 import BackButton from "@/app/(afterLogin)/_component/BackButton";
+import style from './singlePost.module.css';
+import Post from "@/app/(afterLogin)/_component/Post";
+import CommentForm from "@/app/(afterLogin)/[username]/status/[id]/_component/CommentForm";
 
-export default function Profile() {
-  const user = {
-    id: "zerohch0",
-    nickname: "제로초",
-    image: "/5Udwvqim.jpg",
-  };
-
+export default function SinglePost() {
   return (
-    <main className={style.main}>
+    <div className={style.main}>
       <div className={style.header}>
-        <BackButton />
-        <h3 className={style.headerTitle}>{user.nickname}</h3>
+        <BackButton/>
+        <h3 className={style.headerTitle}>게시하기</h3>
       </div>
-      <div className={style.userZone}>
-        <div className={style.userImage}>
-          <img src={user.image} alt={user.id} />
-        </div>
-        <div className={style.userName}>
-          <div>{user.nickname}</div>
-          <div>@{user.id}</div>
-        </div>
-        <button className={style.followButton}>팔로우</button>
-      </div>
+      <Post />
+      <CommentForm />
       <div>
         <Post />
         <Post />
@@ -32,7 +19,10 @@ export default function Profile() {
         <Post />
         <Post />
         <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
-    </main>
-  );
+    </div>
+  )
 }
