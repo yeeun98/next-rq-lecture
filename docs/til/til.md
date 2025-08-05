@@ -1,3 +1,10 @@
+### ✅ 2025-08-05
+
+- `onClickCapture` | 29강 (PostArticle)
+  → 이벤트 버블링 방지를 위해 사용됨
+
+---
+
 ### ✅ 2025-08-03
 
 - `backdrop-filter: blur(12px)` ｜ 22강 (Tab 마크업)  
@@ -5,7 +12,7 @@
   → 효과를 **시각적으로 보이게 하려면**, `div`의 배경이 반드시 **반투명**해야 함  
   → 예: `background-color: rgba(255, 255, 255, 0.3)`
 
-- cx (classnames) ｜ 25강 (ActionButtons 마크업)  
+- `cx` (classnames) ｜ 25강 (ActionButtons 마크업)  
   → 조건에 따라 클래스를 동적으로 적용할 수 있는 유틸 함수  
   → 예: `cx(baseStyle, { [activeStyle]: isActive })`  
   → 다중 조건, 배열, 논리 연산 조합 등 가독성 높이는 데 효과적

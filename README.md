@@ -9,6 +9,7 @@
 - [기술 스택](#기술-스택)
 - [실행 방법](#실행-방법)
 - [강의 정리](#강의-정리)
+- [참고 링크](#참고-링크)
 
 ---
 
@@ -39,32 +40,32 @@ npm run dev # Node.js 18.18.0, ^19.8.0, 또는 20.0.0 이상에서 동작
 
 ---
 
-## 📚 강의 정리
+## 강의 정리
 
-**📦 라우팅 관련**
+**라우팅 관련**
 
-| 항목                            | 내용                                              | 링크                                                                 |
+| 항목                             | 내용                                               | 링크                                                                 |
 | ------------------------------- | ------------------------------------------------- | -------------------------------------------------------------------- |
-| App Router                      | App Router 구조와 동작 방식 정리                  | [상세 보기](./docs/lecture/about-app-router.md)                      |
-| Parallel Routes                 | 병렬 라우팅 개념과 사용 예시                      | [상세 보기](./docs/lecture/about-parallel-routes.md)                 |
-| 클라이언트 컴포넌트 전환        | 전환 방법 및 이유 정리                            | [상세 보기](./docs/lecture/about-client-components.md)               |
-| Intercepting Routes             | 주소를 유지한 채 라우트를 가로채는 방법           | [상세 보기](./docs/lecture/about-intercepting-routes.md)             |
-| Non-Routing 폴더                | URL에 영향을 주지 않는 폴더 구조                  | [상세 보기](./docs/lecture/about_non_routing_folders.md)             |
-| useSelectedLayoutSegment        | activeLink 구현을 위한 훅 사용법                  | [상세 보기](./docs/lecture/about_useSelectedLayoutSegment.md)        |
-| usePathname                     | 현재 경로(pathname)를 가져오는 훅                 | [상세 보기](./docs/lecture/about_usePathname.md)                     |
-| searchParams vs useSearchParams | 서버/클라이언트에서 쿼리스트링을 다루는 방법 비교 | [상세 보기](./docs/lecture/about_searchParams_vs_useSearchParams.md) |
+| App Router                      | App Router 구조와 동작 방식 정리                       | [상세 보기](./docs/lecture/about-app-router.md)                      |
+| Parallel Routes                 | 병렬 라우팅 개념과 사용 예시                             | [상세 보기](./docs/lecture/about-parallel-routes.md)                 |
+| 클라이언트 컴포넌트 전환              | 전환 방법 및 이유 정리                                  | [상세 보기](./docs/lecture/about-client-components.md)               |
+| Intercepting Routes             | 주소를 유지한 채 라우트를 가로채는 방법                     | [상세 보기](./docs/lecture/about-intercepting-routes.md)             |
+| Non-Routing 폴더                 | URL에 영향을 주지 않는 폴더 구조                         | [상세 보기](./docs/lecture/about_non_routing_folders.md)             |
+| useSelectedLayoutSegment        | activeLink 구현을 위한 훅 사용법                       | [상세 보기](./docs/lecture/about_useSelectedLayoutSegment.md)        |
+| usePathname                     | 현재 경로(pathname)를 가져오는 훅                       | [상세 보기](./docs/lecture/about_usePathname.md)                     |
+| searchParams vs useSearchParams | 서버/클라이언트에서 쿼리스트링을 다루는 방법 비교             | [상세 보기](./docs/lecture/about_searchParams_vs_useSearchParams.md) |
 
 <br/>
 
-**🧠 상태 관리**
+**상태 관리**
 
-| 항목        | 내용                     | 링크                                             |
+| 항목        | 내용                       | 링크                                             |
 | ----------- | ------------------------ | ------------------------------------------------ |
-| Context API | Provider, 전역 상태 구성 | [상세 보기](./docs/lecture/about-context-api.md) |
+| Context API | Provider, 전역 상태 구성     | [상세 보기](./docs/lecture/about-context-api.md) |
 
 ---
 
-## 📌 참고 링크
+## 참고 링크
 
 - [📘 ZeroCho - next-app-router-z](https://github.com/ZeroCho/next-app-router-z)
 - [📘 Next.js 공식문서](https://nextjs.org/docs)
