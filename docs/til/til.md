@@ -1,3 +1,16 @@
+# TIL
+
+### ✅ 2025-10-07
+
+- `redirect()` (Next.js App Router)  
+  → `redirect()`는 페이지를 즉시 이동시키는 **특별한 종료 명령**처럼 동작함. > Next.js 내부적으로 throw new RedirectError() 같은 동작을 함  
+  → 그런데 `try/catch` 안에서 호출하면 **이동이 가로막혀서 작동하지 않음**.  
+  → 따라서 `redirect()`는 `try` **밖에서** 호출해야 함.  
+  → 예: `fetch` 요청 후 성공 시 `redirect('/home')`을 try문 밖에서 실행.  
+  → 서버에서 사용 시에는 `redirect()`, 클라이언트에서는 `useRouter().push()` 사용.
+
+---
+
 ### ✅ 2025-08-05
 
 - `onClickCapture` | 29강 (PostArticle)
@@ -7,16 +20,16 @@
 
 ### ✅ 2025-08-03
 
-- `backdrop-filter: blur(12px)` ｜ 22강 (Tab 마크업)  
-  → 요소 뒤의 배경을 흐리게 만들어 유리 느낌의 UI 연출 가능  
-  → 효과를 **시각적으로 보이게 하려면**, `div`의 배경이 반드시 **반투명**해야 함  
+- `backdrop-filter: blur(12px)` ｜ 22강 (Tab 마크업)
+  → 요소 뒤의 배경을 흐리게 만들어 유리 느낌의 UI 연출 가능
+  → 효과를 **시각적으로 보이게 하려면**, `div`의 배경이 반드시 **반투명**해야 함
   → 예: `background-color: rgba(255, 255, 255, 0.3)`
 
-- `cx` (classnames) ｜ 25강 (ActionButtons 마크업)  
-  → 조건에 따라 클래스를 동적으로 적용할 수 있는 유틸 함수  
-  → 예: `cx(baseStyle, { [activeStyle]: isActive })`  
+- `cx` (classnames) ｜ 25강 (ActionButtons 마크업)
+  → 조건에 따라 클래스를 동적으로 적용할 수 있는 유틸 함수
+  → 예: `cx(baseStyle, { [activeStyle]: isActive })`
   → 다중 조건, 배열, 논리 연산 조합 등 가독성 높이는 데 효과적
 
-- 라이브러리 선택 시 참고하면 좋은 사이트  
-  → `npm trends`로 다운로드 수 비교해 인기도 파악 가능  
+- 라이브러리 선택 시 참고하면 좋은 사이트
+  → `npm trends`로 다운로드 수 비교해 인기도 파악 가능
   → 실무에서는 “가볍고 자주 쓰이며 널리 검증된 것”을 우선 고려

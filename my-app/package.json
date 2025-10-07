@@ -23,8 +23,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "typescript": "^5",
-    "msw": "2.0.0"
+    "msw": "^2.11.3",
+    "typescript": "^5"
   },
   "msw": {
     "workerDirectory": [
