@@ -1,6 +1,7 @@
 import style from "./signup.module.css";
 import BackButton from "./BackButton";
 import { redirect } from "next/navigation";
+import Form from 'next/form';
 
 export default function SignupModal() {
   const submit = async (formData: FormData) => {
@@ -50,7 +51,7 @@ export default function SignupModal() {
             <BackButton />
             <div>계정을 생성하세요.</div>
           </div>
-          <form action={submit}>
+          <Form action={submit}>
             <div className={style.modalBody}>
               <div className={style.inputDiv}>
                 <label className={style.inputLabel} htmlFor="id">
